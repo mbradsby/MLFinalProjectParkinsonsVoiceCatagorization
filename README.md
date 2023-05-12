@@ -1,5 +1,5 @@
 # MLFinalProjectParkinsonsVoiceCatagorization
-Members:  Meadow Bradsby, Dhimiter Cobani,  Hao Yu
+Members:  Meadow Bradsby,  Hao Yu, Dhimiter Cobani
 
 Problem statement: 
 
@@ -21,8 +21,6 @@ Tree based algorithms(decision_trees.ipynb):
 For small and medium sized dataset, good predictive performance can be achieved by tree-based algorithms. In our case the dataset was able to acheive an accuracy of 87%, a significant increase from the 80% baseline. The Shapley values can provide further information about which of the parameters contribute most to the categorization of the voices as having Parkinson’s or not, which will be very useful in understanding what the categorization means. Shapley values are a way of assigning credit or importance to each feature in a machine learning model[4]. In doing so we find that features from nonlinear measures on the sound contribute to the high predict accuracy, and maximum vocal fundamental frequency contributes the most. Features from measures of variantion in fundamental frequency are less important. 
 
 
-SVM:
-Another classification algorithm we plan to use is support vector machine (SVM). SVM simply works by finding a hyperplane that maximizes the distance between data points of two or more classes, in our case being Parksinsons or no Parksinsons. An important feature of SVM are support vectors which refer to data points closer to the hyperplane and these points play a critical role in positioning the plane. To maximize the distance or margin between these two classes, a loss function is used. To help optimize our SVM, we will use L1 and L2 regularization methods.
 
 [1] Wong, S., Gilmour, H., & Ramage-Morin, P. (2014). Parkinson’s Disease: Prevalence, diagnosis and impact. Health Reports / Statistics Canada, Canadian Centre for Health Information = Rapports Sur La Santé / Statistique Canada, Centre Canadien d’information Sur La Santé, 25, 10–14. https://doi.org/10.13140/2.1.4842.9767
 [2]Tolosa, E., Wenning, G., & Poewe, W. (2006). The diagnosis of Parkinson’s disease. The Lancet Neurology, 5(1), 75–86. https://doi.org/10.1016/S1474-4422(05)70285-4
